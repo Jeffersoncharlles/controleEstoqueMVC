@@ -1,0 +1,18 @@
+body{
+    background-color:#DDD;
+}
+.container{
+    background-color: #eff0f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+button[type=submit]{
+    background-color: #264e86;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px 20px;
+}

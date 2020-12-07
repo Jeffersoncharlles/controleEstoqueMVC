@@ -1,0 +1,16 @@
+.container{
+    max-width: 1000px;/*max- largura*/
+    margin: auto;
+}
+#busca{
+    outline: 0;
+    border: 0;
+}
+
+/*.form input[type=text],
+.form select,
+.form textarea{
+    width: 100%;
+    height: 35px;
+}
+*/
