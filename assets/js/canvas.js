@@ -13,3 +13,15 @@ let chartGrap = new Chart(ctx,{
         }]
     }
 });
+
+function funcao_pdf(){
+    var pegar_data = document.getElementById('data').innerHTML;
+    var winds = window.open('','','width=800,heigth=600');
+    winds.document.write('<html><head>');
+    winds.document.write('<title>PDF</title></head>');
+    winds.document.write('<body><table><th>');
+    winds.document.write(pegar_data);
+    winds.document.write('</th></table></body></html>');
+    winds.document.close;
+    winds.print();
+}

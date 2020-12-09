@@ -1,5 +1,6 @@
 body{
     background-color:#DDD;
+    
 }
 .container{
     background-color: #eff0f4;
@@ -8,6 +9,7 @@ body{
     width: 300px;
     margin: auto;
     text-align: center;
+    justify-content: center;
 }
 
 button[type=submit]{
